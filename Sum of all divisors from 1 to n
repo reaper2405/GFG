@@ -12,7 +12,7 @@ public:
     long long sumOfDivisors(int N)
     {
         // Write Your Code here
-        int s=0;
+        long long int s=0;
         for(int i=1;i<N;++i){
             s+=(N/i)*i;
         }
